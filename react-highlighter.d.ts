@@ -3,7 +3,7 @@
 declare module "react-highlighter" {
   import { ComponentClass, Props, CSSProperties } from 'react';
 
-  export interface IHighlighterProps {
+  interface IHighlighterProps extends Props<Highlighter> {
     search: string | number | boolean;
     caseSensitive?: boolean;
     matchElement?: string;
