@@ -1,6 +1,6 @@
 {
-  "name": "typings-react-highlighter",
-  "main": "typings-react-highlighter.d.ts",
+  "name": "react-highlighter",
+  "main": "react-highlighter.d.ts",
   "author": "star__hoshi",
   "ambient": false,
   "ambientDependencies": {
