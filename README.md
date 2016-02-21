@@ -1,7 +1,4 @@
 # typings-react-highlighter
 
-This is type definition for [helior/react-highlighter](https://github.com/helior/react-highlighter) library.
+This is type definition for [helior/react-highlighter](https://github.com/helior/react-highlighter).
 
-```
-typings install react-highlighter
-```
