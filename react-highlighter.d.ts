@@ -1,17 +1,17 @@
 /// <reference path="typings/main.d.ts" />
 
 declare module "react-highlighter" {
-  import { ComponentClass, Props, CSSProperties } from 'react';
+  import * as React from 'react';
 
-  interface IHighlighterProps extends Props<Highlighter> {
+  interface IHighlighterProps extends React.Props<Highlighter> {
     search: string | number | boolean;
     caseSensitive?: boolean;
     matchElement?: string;
     matchClass?: string;
-    matchStyle?: CSSProperties;
+    matchStyle?: React.CSSProperties;
   }
 
-  interface Highlighter extends ComponentClass<IHighlighterProps> {
+  interface Highlighter extends React.ComponentClass<IHighlighterProps> {
   }
   const Highlighter:Highlighter;
 
