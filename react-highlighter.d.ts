@@ -1,7 +1,8 @@
 /// <reference path="typings/main.d.ts" />
 
+import * as React from "react";
+
 declare module "react-highlighter" {
-  import * as React from 'react';
 
   interface IHighlighterProps extends React.Props<Highlighter> {
     search: string | number | boolean;
