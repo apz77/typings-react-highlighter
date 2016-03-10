@@ -14,7 +14,7 @@ declare module reactHighlighter {
 
   interface Highlighter extends React.ComponentClass<IHighlighterProps> {
   }
-  export const Highlighter:Highlighter;
+  export default Highlighter;
 
 }
 
