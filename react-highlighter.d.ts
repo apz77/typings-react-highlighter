@@ -1,6 +1,6 @@
 /// <reference path="typings/main.d.ts" />
 
-declare module "react-highlighter" {
+declare module reactHighlighter {
   import * as React from "react";
 
   interface IHighlighterProps extends React.Props<Highlighter> {
@@ -17,4 +17,4 @@ declare module "react-highlighter" {
 
 }
 
-export = react-highlighter;
+export = reactHighlighter;
