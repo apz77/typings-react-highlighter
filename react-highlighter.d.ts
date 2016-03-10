@@ -12,9 +12,8 @@ declare module reactHighlighter {
     matchStyle?: React.CSSProperties;
   }
 
-  interface Highlighter extends React.ComponentClass<IHighlighterProps> {
+  export interface Highlighter extends React.ComponentClass<IHighlighterProps> {
   }
-  export default Highlighter;
 
 }
 
